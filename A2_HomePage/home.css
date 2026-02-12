@@ -1,0 +1,163 @@
+
+.box {
+  padding: 8px;
+  border-radius: 4px;
+  border-width: 5px;
+  border-color: #194047;
+}
+p {
+  text-align: left;
+  font-size: 13px;
+  width: 300px;
+  color: #DFF2EB;
+}
+
+a {
+  color: #DFF2EB;
+}
+
+h1 {
+  text-align: right;
+  font-size: 25px;
+  color: #194047;
+}
+h2 {
+  text-align: left;
+  font-size: 25px;
+  color: #DFF2EB;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  color: #194047;
+}
+
+h4 {
+text-align: center;
+  font-size: 13px;
+  text-wrap: balance;
+  color: #194047;
+  font-weight: normal;
+}
+
+h5 {
+  text-align: right;
+  font-size: 13px;
+  text-wrap: balance;
+  color: #194047;
+  font-weight: normal;
+  margin-left: auto;
+}
+
+.light {
+  background: #DFF2EB;
+}
+.light-blue {
+  background: #9ACBD0;
+}
+.dark-blue {
+  background: #194047;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+  background: white;
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar {
+  background: #194047;
+  padding: 10px 20px;
+  color: #DFF2EB;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  padding: 10px;
+  display: flex;
+  gap: 30px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  gap: 5px;
+  height: 430px;
+  background-image: url("turtlebg.jpg");
+  background-size: cover;
+  padding: 20px;
+}
+
+.donatebutton {
+  background-color: #F5D140;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.our-mission{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  height: 400px
+}
+
+.images {
+  padding: 10px;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.band1 img {
+  width: 90px;
+}
+
+.plastic1 img {
+  width: 90px;
+}
+
+.coral1 img {
+  width: 90px;
+}
+
+.recent-news{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  height: 400px
+}
+
+.recent-news img {
+  width: 400px;
+  float: left;
+  border-radius: 20px;
+}
+
+.footer {
+  background: #194047;
+  padding: 15px 20px;
+  color: white;
+  display: grid;
+  justify-content: space-between;
+}
+.foot-links {
+  display: flex;
+  gap: 30px;
+}
