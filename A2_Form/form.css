@@ -6,7 +6,7 @@
 }
 p {
   text-align: left;
-  font-size: 13px;
+  font-size: 18px;
   color: #194047;
 }
 
@@ -16,7 +16,7 @@ a {
 
 h2 {
   text-align: left;
-  font-size: 25px;
+  font-size: 30px;
   color: #194047;
 }
 
@@ -65,7 +65,7 @@ body {
   position: relative;
   padding-left: 30px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 18px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -144,4 +144,5 @@ input[type=submit] {
 .foot-links {
   display: flex;
   gap: 30px;
+
 }
