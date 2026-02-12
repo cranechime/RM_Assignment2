@@ -57,7 +57,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
   gap: 5px;
-  height: 500px;
+  height: 550px;
 }
 
 .container {
@@ -128,6 +128,7 @@ input[type=submit] {
   width: 15%;
   background-color: #194047;
   color: #DFF2EB;
+  font-size: 18px;
   padding: 6px;
   border: none;
   border-radius: 33px;
@@ -146,3 +147,4 @@ input[type=submit] {
   gap: 30px;
 
 }
+
