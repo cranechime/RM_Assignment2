@@ -7,9 +7,10 @@
 }
 p {
   text-align: left;
-  font-size: 13px;
+  font-size: 18px;
   text-wrap: balance;
   color: #194047;
+  margin-left: 30px;
 }
 
 a {
@@ -18,8 +19,9 @@ a {
 
 h2 {
   text-align: left;
-  font-size: 25px;
+  font-size: 30px;
   color: #194047;
+  margin-left: 30px;
 }
 
 .light-blue {
@@ -67,4 +69,5 @@ body {
 .foot-links {
   display: flex;
   gap: 30px;
+
 }
